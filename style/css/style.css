@@ -1,4 +1,24 @@
-h1 {
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out; }
+
+a {
+  text-decoration: none;
+  color: #0079BC; }
+
+li {
+  list-style: none; }
+
+a:hover, a:focus {
+  color: #333333; }
+
+header {
+  background: #FFFFFF;
   color: #003566; }
 
 /*# sourceMappingURL=style.css.map */

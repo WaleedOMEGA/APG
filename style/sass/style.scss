@@ -1,5 +1,24 @@
-@import"var";
-h1{
-    color:$maincolor;
+@import"_var";
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    -webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
 }
-    
+a{
+    text-decoration: none;
+    color:$contentcolor;
+}
+li{
+    list-style: none;
+}
+a:hover,a:focus{
+    color:$hovercolor;
+}
+header{
+    background: $mainbackground;
+    color:$headcolor;
+}

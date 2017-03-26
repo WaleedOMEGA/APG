@@ -22,35 +22,3 @@ a:hover,a:focus,.special:hover{
 .clearfix{
     clear: both;
 }
-header{
-    background: $mainbackground;
-    color:$headcolor;
-    height: 100px;
-    .logo{
-        width:20%;
-        float:left;
-        img{
-            width:80%;
-            margin:0 auto;
-        }
-    }
-    nav{
-        width:75%;
-        float:right;
-        ul{
-            margin-top:5%;
-            li{
-                float:right;
-                a{
-                    padding-right: 2em;
-                    text-align: center;
-                    font-weight: bold;
-                    font-size: $headfont;
-                }
-                .special{
-                        color:$specialcolor;
-                    }
-            }
-        }
-    }
-}

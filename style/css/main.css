@@ -1,3 +1,50 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out; }
 
+a {
+  text-decoration: none;
+  color: #0079BC;
+  cursor: pointer;
+  color: #302B2D; }
+
+li {
+  list-style: none; }
+
+a:hover, a:focus, .special:hover {
+  color: #24C3EB; }
+
+.clearfix {
+  clear: both; }
+
+header {
+  background: #FFFFFF;
+  color: #302B2D;
+  height: 100px; }
+  header .logo {
+    width: 20%;
+    float: left; }
+    header .logo img {
+      width: 80%;
+      margin: 0 auto; }
+  header nav {
+    width: 75%;
+    float: right; }
+    header nav ul {
+      margin-top: 5%; }
+      header nav ul li {
+        float: right; }
+        header nav ul li a {
+          padding-right: 0.5em;
+          text-align: center;
+          font-weight: bold;
+          font-size: 1.2em; }
+        header nav ul li .special {
+          color: #F26E25; }
 
 /*# sourceMappingURL=main.css.map */

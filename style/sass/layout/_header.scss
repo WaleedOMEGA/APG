@@ -18,10 +18,13 @@ header{
             li{
                 float:right;
                 a{
-                    padding-right: 0.5em;
+                    padding-right: 1em;
                     text-align: center;
                     font-weight: bold;
-                    font-size: $headfont;
+                    font-size: $navfont;
+                    :hover {
+                        border:20px solid #000;
+                    }
                 }
                 .special{
                         color:$specialcolor;

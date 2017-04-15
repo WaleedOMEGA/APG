@@ -17,7 +17,8 @@ li {
   list-style: none; }
 
 a:hover, a:focus, .special:hover {
-  color: #24C3EB; }
+  color: #24C3EB;
+  border: 20px solid #000; }
 
 .clearfix {
   clear: both; }
@@ -40,10 +41,12 @@ header {
       header nav ul li {
         float: right; }
         header nav ul li a {
-          padding-right: 0.5em;
+          padding-right: 1em;
           text-align: center;
           font-weight: bold;
-          font-size: 1.2em; }
+          font-size: 1em; }
+          header nav ul li a :hover {
+            border: 20px solid #000; }
         header nav ul li .special {
           color: #F26E25; }
 

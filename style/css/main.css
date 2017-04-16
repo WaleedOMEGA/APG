@@ -9,16 +9,14 @@
 
 a {
   text-decoration: none;
-  color: #0079BC;
-  cursor: pointer;
-  color: #302B2D; }
+  color: #302B2D;
+  cursor: pointer; }
 
 li {
   list-style: none; }
 
 a:hover, a:focus, .special:hover {
-  color: #24C3EB;
-  border: 20px solid #000; }
+  color: #24C3EB; }
 
 .clearfix {
   clear: both; }
@@ -45,8 +43,8 @@ header {
           text-align: center;
           font-weight: bold;
           font-size: 1em; }
-          header nav ul li a :hover {
-            border: 20px solid #000; }
+        header nav ul li a:hover {
+          border-bottom: 3px solid #24C3EB; }
         header nav ul li .special {
           color: #F26E25; }
 

@@ -10,16 +10,14 @@
 }
 a{
     text-decoration: none;
-    color:$contentcolor;
+    color:$headcolor;
     cursor: pointer;
-    color: $headcolor
 }
 li{
     list-style: none;
 }
 a:hover,a:focus,.special:hover{
     color:$hovercolor;
-     border:20px solid #000;
 }
 .clearfix{
     clear: both;

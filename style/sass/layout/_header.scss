@@ -22,10 +22,10 @@ header{
                     text-align: center;
                     font-weight: bold;
                     font-size: $navfont;
-                    :hover {
-                        border:20px solid #000;
-                    }
                 }
+                a:hover {
+                        border-bottom:3px solid $hovercolor;
+                    }
                 .special{
                         color:$specialcolor;
                     }

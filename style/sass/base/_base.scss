@@ -1,4 +1,6 @@
+/* variables */
 @import '../helpers/var';
+/* General Rules */
 *,
 *:before,
 *:after {
@@ -21,4 +23,7 @@ a:hover,a:focus,.special:hover{
 }
 .clearfix{
     clear: both;
+}
+button:focus{
+    outline:none;
 }

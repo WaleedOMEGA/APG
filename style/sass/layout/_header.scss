@@ -1,7 +1,9 @@
+/* header */
 header{
     background: $mainbackground;
     color:$headcolor;
     height: 100px;
+    /* logo */
     .logo{
         width:20%;
         float:left;
@@ -10,6 +12,7 @@ header{
             margin:0 auto;
         }
     }
+    /* navigation */
     nav{
         width:75%;
         float:right;
@@ -30,6 +33,35 @@ header{
                         color:$specialcolor;
                     }
             }
+        }
+    }
+}
+/* responsive navigation style max width:767 */
+@media #{$mobile} {
+    header nav{
+        position: relative;
+        header nav ul{
+            position: absolute;
+        }
+    }
+header nav:not(.active) ul{
+    display: none;
+    }
+    header nav .nav-btn{
+      background: none;
+      width:40px;
+      border:none;
+      margin-right: 30px;
+      float: right;
+      margin-top: 15px;
+        .btn-line{
+            display:block;
+            height:2px;
+            margin-bottom: 6px;
+            background-color: $headcolor;
+        }
+        .btn-line:last-child{
+            margin-bottom: 0;
         }
     }
 }

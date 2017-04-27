@@ -10,9 +10,8 @@
     box-sizing: border-box;
     @include transition(all .5s ease-in-out);
 }
-a:hover {
-   color: red; 
-  background-color: blue;
+html,body{
+    height: 100%;
 }
 a{
     text-decoration: none;
@@ -33,4 +32,7 @@ button:focus{
 }
 body{
     overflow-x: hidden;
+}
+.section{
+    height: 100%;
 }

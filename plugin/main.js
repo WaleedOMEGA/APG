@@ -9,7 +9,16 @@ $(document).ready(function(){
             setTimeout(function(){
                 clicked=false
             },2250)
-           }
-        
+           } 
+    });
+    var $mainsection = $('.mainsection');
+    var $header = $('header')
+    $(window).scroll(function(){
+        if($(window).scrollTop() >= $mainsection.height()- 100){
+            $header.addClass('sticky');
+        }
+        else{
+            $header.removeClass('sticky');
+        }
     });
 });

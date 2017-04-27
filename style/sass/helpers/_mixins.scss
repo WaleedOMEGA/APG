@@ -10,3 +10,9 @@
     -webkit-transition-delay: $delay;
     transition-delay:         $delay;
 }
+@mixin box-shadow($boxshadow...) {
+    -moz-box-shadow:    $boxshadow;
+    -o-box-shadow:      $boxshadow;
+    -webkit-box-shadow: $boxshadow;
+    box-shadow:         $boxshadow;
+}

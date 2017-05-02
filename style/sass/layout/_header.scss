@@ -3,7 +3,7 @@ header{
     position: fixed;
     background: $mainbackground;
     color:$headcolor;
-    height: 100px;
+    height: 200px;
     top:0;
     left:0;
     right:0;
@@ -12,35 +12,39 @@ header{
         width:20%;
         float:left;
         img{
-            width:80%;
+            width:90%;
             margin:0 auto;
         }
     }
     /* navigation */
     nav{
+        margin-top:4%;
         width:75%;
         float:right;
         .nav-btn {
-	display: none;
+	       display: none;
         }
         ul{
-            margin-top:5%;
+            margin-top:25px;
             float: right;
             li{
                 display: inline-block;
+                position: relative;
                 a{
-                    padding-right: 1em;
+                    margin-right: 1em;
                     text-align: center;
                     font-weight: bold;
                     font-size: $navfont;
+                    padding-bottom: 5px;
                 }
                 a:hover {
-                        border-bottom:3px solid $hovercolor;
-                    }
+                    border-bottom: 3px solid $hovercolor;
+            }
                 .special{
                         color:$specialcolor;
                     }
             }
+            
         }
     }
 }
@@ -49,11 +53,17 @@ header.sticky{
 }
 /* responsive navigation style max width:767 */
 @media #{$mobile} {
+    header .logo{
+      width:33%;
+    }
+    header nav{
+        width:50%;
+    }
     header nav ul{
             padding: 0;
             position: absolute;
             right: 0;
-            top:30px;
+            top:100px;
             margin:0;
             li{
                 display: block;
@@ -135,11 +145,17 @@ header.sticky{
 }
 /* responsive navigation style max width:1158 & min width:768 */
 @media #{$medium}{
+    header .logo{
+      width:33%;
+    }
+    header nav{
+        width:50%;
+    }
     header nav ul{
             padding: 0;
             position: absolute;
             right: 0;
-            top:30px;
+            top:100px;
             margin:0;
             li{
                 display: block;
@@ -192,7 +208,7 @@ header.sticky{
         }
         }
     header nav:not(.active) ul li{
-    right:-200px;
+    right:-250px;
     }
     header nav:not(.active) .nav-btn{
     background-color:transparent;
@@ -219,6 +235,6 @@ header.sticky{
         }
     }
 }
-.section{
-    background-color: #ccc;
+.front{
+    margin-top: 180px;
 }

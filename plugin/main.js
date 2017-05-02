@@ -11,6 +11,12 @@ $(document).ready(function(){
             },2250)
            } 
     });
+    $(document).on('click',function(e){
+        var clickhover=$(e.target);
+        if(!clickhover.closest('header').length && $('nav').hasClass('active')){
+            $('nav').removeClass('active');
+        }
+    });
     var $mainsection = $('.mainsection');
     var $header = $('header')
     $(window).scroll(function(){

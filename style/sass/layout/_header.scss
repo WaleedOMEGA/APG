@@ -115,6 +115,9 @@ header.sticky{
              background-color:$hovercolor;
         }
         }
+    header nav:not(.active) ul{
+        display: none;
+    }
     header nav:not(.active) ul li{
     right:-200px;
     }

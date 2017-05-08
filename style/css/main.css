@@ -53,6 +53,7 @@ header.sticky { -moz-box-shadow: 2px 0 2px rgba(0, 0, 0, 0.5); -o-box-shadow: 2p
   header nav ul li:nth-child(9) { -moz-transition-delay: 1.6s; -o-transition-delay: 1.6s; -webkit-transition-delay: 1.6s; transition-delay: 1.6s; }
   header nav ul li:nth-child(10) { -moz-transition-delay: 1.8s; -o-transition-delay: 1.8s; -webkit-transition-delay: 1.8s; transition-delay: 1.8s; }
   header nav ul li:hover, header nav ul li:active { background-color: #24C3EB; }
+  header nav:not(.active) ul { display: none; }
   header nav:not(.active) ul li { right: -200px; }
   header nav:not(.active) .nav-btn { background-color: transparent; }
   header nav .nav-btn { background: none; width: 40px; border: none; margin-right: 30px; float: right; margin-top: 15px; display: block; background-color: #ccc; padding: 5px 3px; border-radius: 3px; }

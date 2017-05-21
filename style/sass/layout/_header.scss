@@ -240,4 +240,10 @@ header.sticky{
 }
 .front{
     margin-top: 180px;
+    height: 400px;
+}
+@media #{$mobile} {
+    .front{
+        height: 200px;
+    }
 }

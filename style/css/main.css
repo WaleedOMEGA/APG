@@ -21,6 +21,8 @@ body { overflow-x: hidden; }
 
 .section { height: 100%; }
 
+.center { text-align: center; }
+
 /* header */
 /* header */
 header { position: fixed; background: #FFFFFF; color: #302B2D; height: 200px; top: 0; left: 0; right: 0; /* logo */ /* navigation */ }
@@ -81,6 +83,13 @@ header.sticky { -moz-box-shadow: 2px 0 2px rgba(0, 0, 0, 0.5); -o-box-shadow: 2p
   header nav .nav-btn { background: none; width: 40px; border: none; margin-right: 30px; float: right; margin-top: 15px; display: block; background-color: #ccc; padding: 5px 3px; border-radius: 3px; }
   header nav .nav-btn .btn-line { display: block; height: 4px; margin-bottom: 6px; background-color: #302B2D; }
   header nav .nav-btn .btn-line:last-child { margin-bottom: 0; } }
-.front { margin-top: 180px; }
+.front { margin-top: 180px; height: 400px; }
+
+@media (max-width: 767px) { .front { height: 200px; } }
+/*main content*/
+/*content*/
+.headline { margin-top: 30px; color: #302B2D; background: #FFFFFF; font-size: 1.2em; }
+
+.headline:hover { color: #24C3EB; }
 
 /*# sourceMappingURL=main.css.map */

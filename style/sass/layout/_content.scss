@@ -1,0 +1,10 @@
+/*content*/
+.headline {
+	margin-top:30px;
+    color:$headcolor;
+    background: $mainbackground;
+    font-size: $headfont;
+}
+.headline:hover {
+	color:$hovercolor
+}

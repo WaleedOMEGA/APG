@@ -3,7 +3,7 @@
 /*variables */
 /* mixins */
 /* General Rules */
-*, *:before, *:after { box-sizing: border-box; -moz-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; }
+*, *:before, *:after { box-sizing: border-box; -moz-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; font-family: 'Droid Sans', sans-serif; }
 
 html, body { height: 100%; }
 
@@ -23,10 +23,18 @@ body { overflow-x: hidden; }
 
 .center { text-align: center; }
 
+.container { width: 80%; margin: 0 auto; }
+
+.image { display: inline-block; float: left; width: 45%; margin-right: 10px; }
+
+.content { display: inline-block; float: left; width: 50%; margin-left: 10px; }
+
+.bold { font-weight: bold; color: #0079BC; }
+
 /* header */
 /* header */
 header { position: fixed; background: #FFFFFF; color: #302B2D; height: 200px; top: 0; left: 0; right: 0; /* logo */ /* navigation */ }
-header .logo { width: 20%; float: left; }
+header .logo { width: 21%; float: left; }
 header .logo img { width: 90%; margin: 0 auto; }
 header nav { margin-top: 4%; width: 75%; float: right; }
 header nav .nav-btn { display: none; }
@@ -36,10 +44,10 @@ header nav ul li a { margin-right: 1em; text-align: center; font-weight: bold; f
 header nav ul li a:hover { border-bottom: 3px solid #24C3EB; }
 header nav ul li .special { color: #F26E25; }
 
-header.sticky { -moz-box-shadow: 2px 0 2px rgba(0, 0, 0, 0.5); -o-box-shadow: 2px 0 2px rgba(0, 0, 0, 0.5); -webkit-box-shadow: 2px 0 2px rgba(0, 0, 0, 0.5); box-shadow: 2px 0 2px rgba(0, 0, 0, 0.5); }
+header.sticky { -moz-box-shadow: 5px 0 5px rgba(48, 43, 45, 0.8); -o-box-shadow: 5px 0 5px rgba(48, 43, 45, 0.8); -webkit-box-shadow: 5px 0 5px rgba(48, 43, 45, 0.8); box-shadow: 5px 0 5px rgba(48, 43, 45, 0.8); }
 
 /* responsive navigation style max width:767 */
-@media (max-width: 767px) { header .logo { width: 33%; }
+@media (max-width: 767px) { header .logo { width: 50%; }
   header nav { width: 50%; }
   header nav ul { padding: 0; position: absolute; right: 0; top: 100px; margin: 0; }
   header nav ul li { display: block; text-align: center; background-color: #ccc; margin-bottom: 5px; position: relative; right: 0; -moz-transition: right 0.4s; -o-transition: right 0.4s; -webkit-transition: right 0.4s; transition: right 0.4s; }
@@ -55,8 +63,7 @@ header.sticky { -moz-box-shadow: 2px 0 2px rgba(0, 0, 0, 0.5); -o-box-shadow: 2p
   header nav ul li:nth-child(9) { -moz-transition-delay: 1.6s; -o-transition-delay: 1.6s; -webkit-transition-delay: 1.6s; transition-delay: 1.6s; }
   header nav ul li:nth-child(10) { -moz-transition-delay: 1.8s; -o-transition-delay: 1.8s; -webkit-transition-delay: 1.8s; transition-delay: 1.8s; }
   header nav ul li:hover, header nav ul li:active { background-color: #24C3EB; }
-  header nav:not(.active) ul { display: none; }
-  header nav:not(.active) ul li { right: -200px; }
+  header nav:not(.active) ul li { right: -250px; }
   header nav:not(.active) .nav-btn { background-color: transparent; }
   header nav .nav-btn { background: none; width: 40px; border: none; margin-right: 30px; float: right; margin-top: 15px; display: block; background-color: #ccc; padding: 5px 3px; border-radius: 3px; }
   header nav .nav-btn .btn-line { display: block; height: 4px; margin-bottom: 6px; background-color: #302B2D; }
@@ -88,8 +95,18 @@ header.sticky { -moz-box-shadow: 2px 0 2px rgba(0, 0, 0, 0.5); -o-box-shadow: 2p
 @media (max-width: 767px) { .front { height: 200px; } }
 /*main content*/
 /*content*/
-.headline { margin-top: 30px; color: #302B2D; background: #FFFFFF; font-size: 1.2em; }
+.headline { margin-top: 30px; color: #302B2D; background: #FFFFFF; font-size: 2.5em; margin-bottom: 30px; }
 
 .headline:hover { color: #24C3EB; }
+
+.image img { width: 90%; margin: 15px auto; }
+
+.content { color: #302B2D; font-size: 16px; text-transform: capitalize; letter-spacing: 1px; line-height: 25px; }
+
+/* responsive content style max width:1158 & min width:768 */
+/* responsive content style max width:767 */
+/* footer */
+/* footer */
+footer { border-top: 25px solid #000; }
 
 /*# sourceMappingURL=main.css.map */

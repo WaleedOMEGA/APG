@@ -9,7 +9,7 @@ header{
     right:0;
     /* logo */
     .logo{
-        width:20%;
+        width:21%;
         float:left;
         img{
             width:90%;
@@ -49,12 +49,12 @@ header{
     }
 }
 header.sticky{
-    @include box-shadow(2px 0 2px rgba(0,0,0,0.5))
+    @include box-shadow(5px 0 5px rgba(48,43,45,0.8))
 }
 /* responsive navigation style max width:767 */
 @media #{$mobile} {
     header .logo{
-      width:33%;
+      width:50%;
     }
     header nav{
         width:50%;
@@ -115,19 +115,15 @@ header.sticky{
              background-color:$hovercolor;
         }
         }
-    header nav:not(.active) ul{
-        display: none;
-    }
     header nav:not(.active) ul li{
-    right:-200px;
+    right:-250px;
     }
     header nav:not(.active) .nav-btn{
     background-color:transparent;
     }
     header nav .nav-btn{
       background: none;
-      width:40px;
-      border:none;
+      width:40px;      border:none;
       margin-right: 30px;
       float: right;
       margin-top: 15px;

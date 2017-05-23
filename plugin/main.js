@@ -20,11 +20,12 @@ $(document).ready(function(){
     var $mainsection = $('.mainsection');
     var $header = $('header')
     $(window).scroll(function(){
-        if($(window).scrollTop() >= $mainsection.height()- 100){
+        if($(window).scrollTop() >= $mainsection.height()- 900){
             $header.addClass('sticky');
         }
         else{
             $header.removeClass('sticky');
         }
     });
+    console.log($mainsection.height());
 });

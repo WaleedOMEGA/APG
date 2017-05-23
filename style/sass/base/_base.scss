@@ -9,6 +9,7 @@
 *:after {
     box-sizing: border-box;
     @include transition(all .5s ease-in-out);
+    font-family: 'Droid Sans', sans-serif;
 }
 html,body{
     height: 100%;
@@ -38,4 +39,24 @@ body{
 }
 .center{
     text-align: center;
+}
+.container{
+    width:80%;
+    margin: 0 auto;
+}
+.image{
+    display:inline-block;
+    float:left;
+    width:45%;
+    margin-right: 10px;
+}
+.content{
+    display: inline-block;
+    float:left;
+    width:50%;
+    margin-left:10px;
+}
+.bold{
+    font-weight: bold;
+    color:$contentcolor;
 }

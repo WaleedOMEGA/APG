@@ -46,8 +46,8 @@ header nav ul li .special { color: #F26E25; }
 
 header.sticky { -moz-box-shadow: 5px 0 5px rgba(48, 43, 45, 0.8); -o-box-shadow: 5px 0 5px rgba(48, 43, 45, 0.8); -webkit-box-shadow: 5px 0 5px rgba(48, 43, 45, 0.8); box-shadow: 5px 0 5px rgba(48, 43, 45, 0.8); }
 
-/* responsive navigation style max width:767 */
-@media (max-width: 767px) { header .logo { width: 50%; }
+/* responsive navigation style max width:481*/
+@media (max-width: 481px) { header .logo { width: 50%; }
   header nav { width: 50%; }
   header nav ul { padding: 0; position: absolute; right: 0; top: 100px; margin: 0; }
   header nav ul li { display: block; text-align: center; background-color: #ccc; margin-bottom: 5px; position: relative; right: 0; -moz-transition: right 0.4s; -o-transition: right 0.4s; -webkit-transition: right 0.4s; transition: right 0.4s; }
@@ -68,8 +68,30 @@ header.sticky { -moz-box-shadow: 5px 0 5px rgba(48, 43, 45, 0.8); -o-box-shadow:
   header nav .nav-btn { background: none; width: 40px; border: none; margin-right: 30px; float: right; margin-top: 15px; display: block; background-color: #ccc; padding: 5px 3px; border-radius: 3px; }
   header nav .nav-btn .btn-line { display: block; height: 4px; margin-bottom: 6px; background-color: #302B2D; }
   header nav .nav-btn .btn-line:last-child { margin-bottom: 0; } }
-/* responsive navigation style max width:1158 & min width:768 */
-@media (min-width: 768px) and (max-width: 1250px) { header .logo { width: 33%; }
+/* responsive navigation style max width:767 & min width:482*/
+@media (min-width: 482px) and (max-width: 767px) { header .logo { width: 50%; }
+  header nav { width: 50%; }
+  header nav ul { padding: 0; position: absolute; right: 0; top: 100px; margin: 0; }
+  header nav ul li { display: block; text-align: center; background-color: #ccc; margin-bottom: 5px; position: relative; right: 0; -moz-transition: right 0.4s; -o-transition: right 0.4s; -webkit-transition: right 0.4s; transition: right 0.4s; }
+  header nav ul li a { display: block; padding: 4px; border-bottom: 1px solid #000; border-right: 5px solid #000; }
+  header nav ul li a:hover, header nav ul li a:active, header nav ul li .special:hover { color: #000; border-bottom: 0; }
+  header nav ul li:nth-child(2) { -moz-transition-delay: 0.2s; -o-transition-delay: 0.2s; -webkit-transition-delay: 0.2s; transition-delay: 0.2s; }
+  header nav ul li:nth-child(3) { -moz-transition-delay: 0.4s; -o-transition-delay: 0.4s; -webkit-transition-delay: 0.4s; transition-delay: 0.4s; }
+  header nav ul li:nth-child(4) { -moz-transition-delay: 0.6s; -o-transition-delay: 0.6s; -webkit-transition-delay: 0.6s; transition-delay: 0.6s; }
+  header nav ul li:nth-child(5) { -moz-transition-delay: 0.8s; -o-transition-delay: 0.8s; -webkit-transition-delay: 0.8s; transition-delay: 0.8s; }
+  header nav ul li:nth-child(6) { -moz-transition-delay: 1s; -o-transition-delay: 1s; -webkit-transition-delay: 1s; transition-delay: 1s; }
+  header nav ul li:nth-child(7) { -moz-transition-delay: 1.2s; -o-transition-delay: 1.2s; -webkit-transition-delay: 1.2s; transition-delay: 1.2s; }
+  header nav ul li:nth-child(8) { -moz-transition-delay: 1.4s; -o-transition-delay: 1.4s; -webkit-transition-delay: 1.4s; transition-delay: 1.4s; }
+  header nav ul li:nth-child(9) { -moz-transition-delay: 1.6s; -o-transition-delay: 1.6s; -webkit-transition-delay: 1.6s; transition-delay: 1.6s; }
+  header nav ul li:nth-child(10) { -moz-transition-delay: 1.8s; -o-transition-delay: 1.8s; -webkit-transition-delay: 1.8s; transition-delay: 1.8s; }
+  header nav ul li:hover, header nav ul li:active { background-color: #24C3EB; }
+  header nav:not(.active) ul li { right: -250px; }
+  header nav:not(.active) .nav-btn { background-color: transparent; }
+  header nav .nav-btn { background: none; width: 40px; border: none; margin-right: 30px; float: right; margin-top: 15px; display: block; background-color: #ccc; padding: 5px 3px; border-radius: 3px; }
+  header nav .nav-btn .btn-line { display: block; height: 4px; margin-bottom: 6px; background-color: #302B2D; }
+  header nav .nav-btn .btn-line:last-child { margin-bottom: 0; } }
+/* responsive navigation style max width:1223 & min width:768 */
+@media (min-width: 768px) and (max-width: 1223px) { header .logo { width: 33%; }
   header nav { width: 50%; }
   header nav ul { padding: 0; position: absolute; right: 0; top: 100px; margin: 0; }
   header nav ul li { display: block; text-align: center; background-color: #ccc; margin-bottom: 5px; position: relative; right: 0; -moz-transition: right 0.4s; -o-transition: right 0.4s; -webkit-transition: right 0.4s; transition: right 0.4s; }
@@ -92,7 +114,7 @@ header.sticky { -moz-box-shadow: 5px 0 5px rgba(48, 43, 45, 0.8); -o-box-shadow:
   header nav .nav-btn .btn-line:last-child { margin-bottom: 0; } }
 .front { margin-top: 180px; height: 400px; }
 
-@media (max-width: 767px) { .front { height: 200px; } }
+@media (min-width: 482px) and (max-width: 767px) { .front { height: 200px; } }
 /*main content*/
 /*content*/
 .headline { margin-top: 30px; color: #302B2D; background: #FFFFFF; font-size: 2.5em; margin-bottom: 30px; }
@@ -103,8 +125,25 @@ header.sticky { -moz-box-shadow: 5px 0 5px rgba(48, 43, 45, 0.8); -o-box-shadow:
 
 .content { color: #302B2D; font-size: 16px; text-transform: capitalize; letter-spacing: 1px; line-height: 25px; }
 
+/* responsive content style max width:1824 & min width:1225 */
+@media (min-width: 1224px) and (max-width: 1824px) { .image img { width: 100%; margin: 75px auto; }
+  .content { line-height: 20px; } }
+@media (min-width: 1465px) and (max-width: 1824px) { .image img { margin: 25px auto; } }
 /* responsive content style max width:1158 & min width:768 */
-/* responsive content style max width:767 */
+@media (min-width: 768px) and (max-width: 1223px) { .headline { font-size: 2em !important; }
+  .image { display: block; float: none; width: 100%; margin: 0; }
+  .image img { width: 100%; margin: 0; }
+  .content { width: 100%; font-size: 14px; line-height: 20px; } }
+/* responsive content style max width:767 & min width:482 */
+@media (min-width: 482px) and (max-width: 767px) { .headline { font-size: 1.5em !important; }
+  .image { display: block; float: none; width: 100%; margin: 0; }
+  .image img { width: 100%; margin: 0; }
+  .content { width: 100%; font-size: 12px; line-height: 15px; } }
+/* responsive content style max width:481*/
+@media (max-width: 481px) { .headline { font-size: 0.8em !important; }
+  .image { display: block; float: none; width: 100%; margin: 0; }
+  .image img { width: 100%; margin: 0; }
+  .content { width: 100%; font-size: 10px; line-height: 10px; } }
 /* footer */
 /* footer */
 footer { border-top: 25px solid #000; }

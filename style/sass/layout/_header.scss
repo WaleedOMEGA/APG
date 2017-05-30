@@ -51,7 +51,98 @@ header{
 header.sticky{
     @include box-shadow(5px 0 5px rgba(48,43,45,0.8))
 }
-/* responsive navigation style max width:767 */
+/* responsive navigation style max width:481*/
+@media #{$xsmall} {
+    header .logo{
+      width:50%;
+    }
+    header nav{
+        width:50%;
+    }
+    header nav ul{
+            padding: 0;
+            position: absolute;
+            right: 0;
+            top:100px;
+            margin:0;
+            li{
+                display: block;
+                text-align: center;
+                background-color: #ccc;
+                margin-bottom: 5px;
+                position: relative;
+                right:0;
+                @include transition(right 0.4s);
+                a{
+                    display: block;
+                    padding:4px;
+                    border-bottom: 1px solid #000;
+                    border-right: 5px solid #000;
+                }
+                a:hover,a:active,.special:hover {   
+                    color:#000;
+                    border-bottom: 0;
+                    }
+            }
+        li:nth-child(2){
+            @include transition-delay(0.2s)
+        }
+        li:nth-child(3){
+            @include transition-delay(0.4s)
+        }
+        li:nth-child(4){
+            @include transition-delay(0.6s)
+        }
+        li:nth-child(5){
+            @include transition-delay(0.8s)
+        }
+        li:nth-child(6){
+            @include transition-delay(1s)
+        }
+        li:nth-child(7){
+            @include transition-delay(1.2s)
+        }
+        li:nth-child(8){
+            @include transition-delay(1.4s)
+        }
+        li:nth-child(9){
+            @include transition-delay(1.6s)
+        }
+        li:nth-child(10){
+            @include transition-delay(1.8s)
+        }
+        li:hover,li:active{
+             background-color:$hovercolor;
+        }
+        }
+    header nav:not(.active) ul li{
+    right:-250px;
+    }
+    header nav:not(.active) .nav-btn{
+    background-color:transparent;
+    }
+    header nav .nav-btn{
+      background: none;
+      width:40px;      border:none;
+      margin-right: 30px;
+      float: right;
+      margin-top: 15px;
+     display: block;
+        background-color: #ccc;
+        padding:5px 3px;
+        border-radius: 3px;
+        .btn-line{
+            display:block;
+            height:4px;
+            margin-bottom: 6px;
+            background-color: $headcolor;
+        }
+        .btn-line:last-child{
+            margin-bottom: 0;
+        }
+    }
+}
+/* responsive navigation style max width:767 & min width:482*/
 @media #{$mobile} {
     header .logo{
       width:50%;
@@ -142,7 +233,7 @@ header.sticky{
         }
     }
 }
-/* responsive navigation style max width:1158 & min width:768 */
+/* responsive navigation style max width:1223 & min width:768 */
 @media #{$medium}{
     header .logo{
       width:33%;

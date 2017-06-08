@@ -1,4 +1,6 @@
 /* footer */
 footer{
-    border-top:25px solid #000;
+    border-top:5px solid $contentcolor;
+    background-color: $footer;
+    width:100%;
 }

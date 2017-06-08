@@ -146,6 +146,6 @@ header.sticky { -moz-box-shadow: 5px 0 5px rgba(48, 43, 45, 0.8); -o-box-shadow:
   .content { width: 100%; font-size: 10px; line-height: 10px; } }
 /* footer */
 /* footer */
-footer { border-top: 25px solid #000; }
+footer { border-top: 5px solid #0079BC; background-color: #C1CFD5; width: 100%; }
 
 /*# sourceMappingURL=main.css.map */

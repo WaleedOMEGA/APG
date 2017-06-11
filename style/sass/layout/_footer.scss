@@ -3,4 +3,14 @@ footer{
     border-top:5px solid $contentcolor;
     background-color: $footer;
     width:100%;
+    .logo{
+        width:10%;
+        margin:0 auto;
+        img{
+            width:100%;
+        }
+    }
+    .info{
+        font-size:0.8em;
+    }
 }

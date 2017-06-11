@@ -43,6 +43,10 @@ header{
                 .special{
                         color:$specialcolor;
                     }
+                .active{
+                    color:$hovercolor;
+                    border-bottom: 3px solid $hovercolor;
+                }
             }
             
         }

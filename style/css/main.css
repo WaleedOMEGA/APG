@@ -43,6 +43,7 @@ header nav ul li { display: inline-block; position: relative; }
 header nav ul li a { margin-right: 1em; text-align: center; font-weight: bold; font-size: 1em; padding-bottom: 5px; }
 header nav ul li a:hover { border-bottom: 3px solid #24C3EB; }
 header nav ul li .special { color: #F26E25; }
+header nav ul li .active { color: #24C3EB; border-bottom: 3px solid #24C3EB; }
 
 header.sticky { -moz-box-shadow: 5px 0 5px rgba(48, 43, 45, 0.8); -o-box-shadow: 5px 0 5px rgba(48, 43, 45, 0.8); -webkit-box-shadow: 5px 0 5px rgba(48, 43, 45, 0.8); box-shadow: 5px 0 5px rgba(48, 43, 45, 0.8); }
 

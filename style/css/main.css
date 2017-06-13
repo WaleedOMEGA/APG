@@ -5,7 +5,7 @@
 /* General Rules */
 *, *:before, *:after { box-sizing: border-box; -moz-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; font-family: 'Droid Sans', sans-serif; }
 
-html, body { height: 100%; width: 100%; }
+html, body { width: 100%; }
 
 a { text-decoration: none; color: #302B2D; cursor: pointer; }
 
@@ -18,8 +18,6 @@ a:hover, a:focus, .special:hover { color: #24C3EB; }
 button:focus { outline: none; }
 
 body { overflow-x: hidden; }
-
-.section { height: 100%; }
 
 .center { text-align: center; }
 
@@ -54,6 +52,7 @@ header.sticky { -moz-box-shadow: 5px 0 5px rgba(48, 43, 45, 0.8); -o-box-shadow:
   header nav ul li { display: block; text-align: center; background-color: #ccc; margin-bottom: 5px; position: relative; right: 0; -moz-transition: right 0.4s; -o-transition: right 0.4s; -webkit-transition: right 0.4s; transition: right 0.4s; }
   header nav ul li a { display: block; padding: 4px; border-bottom: 1px solid #000; border-right: 5px solid #000; }
   header nav ul li a:hover, header nav ul li a:active, header nav ul li .special:hover { color: #000; border-bottom: 0; }
+  header nav ul li .active { color: #000; border-bottom: 0; background-color: #24C3EB; }
   header nav ul li:nth-child(2) { -moz-transition-delay: 0.2s; -o-transition-delay: 0.2s; -webkit-transition-delay: 0.2s; transition-delay: 0.2s; }
   header nav ul li:nth-child(3) { -moz-transition-delay: 0.4s; -o-transition-delay: 0.4s; -webkit-transition-delay: 0.4s; transition-delay: 0.4s; }
   header nav ul li:nth-child(4) { -moz-transition-delay: 0.6s; -o-transition-delay: 0.6s; -webkit-transition-delay: 0.6s; transition-delay: 0.6s; }
@@ -76,6 +75,7 @@ header.sticky { -moz-box-shadow: 5px 0 5px rgba(48, 43, 45, 0.8); -o-box-shadow:
   header nav ul li { display: block; text-align: center; background-color: #ccc; margin-bottom: 5px; position: relative; right: 0; -moz-transition: right 0.4s; -o-transition: right 0.4s; -webkit-transition: right 0.4s; transition: right 0.4s; }
   header nav ul li a { display: block; padding: 4px; border-bottom: 1px solid #000; border-right: 5px solid #000; }
   header nav ul li a:hover, header nav ul li a:active, header nav ul li .special:hover { color: #000; border-bottom: 0; }
+  header nav ul li .active { color: #000; border-bottom: 0; background-color: #24C3EB; }
   header nav ul li:nth-child(2) { -moz-transition-delay: 0.2s; -o-transition-delay: 0.2s; -webkit-transition-delay: 0.2s; transition-delay: 0.2s; }
   header nav ul li:nth-child(3) { -moz-transition-delay: 0.4s; -o-transition-delay: 0.4s; -webkit-transition-delay: 0.4s; transition-delay: 0.4s; }
   header nav ul li:nth-child(4) { -moz-transition-delay: 0.6s; -o-transition-delay: 0.6s; -webkit-transition-delay: 0.6s; transition-delay: 0.6s; }
@@ -98,6 +98,7 @@ header.sticky { -moz-box-shadow: 5px 0 5px rgba(48, 43, 45, 0.8); -o-box-shadow:
   header nav ul li { display: block; text-align: center; background-color: #ccc; margin-bottom: 5px; position: relative; right: 0; -moz-transition: right 0.4s; -o-transition: right 0.4s; -webkit-transition: right 0.4s; transition: right 0.4s; }
   header nav ul li a { display: block; padding: 4px; border-bottom: 1px solid #000; border-right: 5px solid #000; }
   header nav ul li a:hover, header nav ul li a:active, header nav ul li .special:hover { color: #000; border-bottom: 0; }
+  header nav ul li .active { color: #000; border-bottom: 0; background-color: #24C3EB; }
   header nav ul li:nth-child(2) { -moz-transition-delay: 0.2s; -o-transition-delay: 0.2s; -webkit-transition-delay: 0.2s; transition-delay: 0.2s; }
   header nav ul li:nth-child(3) { -moz-transition-delay: 0.4s; -o-transition-delay: 0.4s; -webkit-transition-delay: 0.4s; transition-delay: 0.4s; }
   header nav ul li:nth-child(4) { -moz-transition-delay: 0.6s; -o-transition-delay: 0.6s; -webkit-transition-delay: 0.6s; transition-delay: 0.6s; }
@@ -147,9 +148,7 @@ header.sticky { -moz-box-shadow: 5px 0 5px rgba(48, 43, 45, 0.8); -o-box-shadow:
   .content { width: 100%; font-size: 10px; line-height: 10px; } }
 /* footer */
 /* footer */
-footer { border-top: 5px solid #0079BC; background-color: #C1CFD5; width: 100%; }
-footer .logo { width: 10%; margin: 0 auto; }
-footer .logo img { width: 100%; }
-footer .info { font-size: 0.8em; }
+footer { border-top: 5px solid #0079BC; background-color: #EAEBED; width: 100%; }
+footer .info { font-size: 1em; padding-bottom: 10px; }
 
 /*# sourceMappingURL=main.css.map */

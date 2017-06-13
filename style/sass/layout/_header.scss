@@ -87,6 +87,11 @@ header.sticky{
                     color:#000;
                     border-bottom: 0;
                     }
+                .active {   
+                    color:#000;
+                    border-bottom: 0;
+                    background-color: #24C3EB;
+                    }
             }
         li:nth-child(2){
             @include transition-delay(0.2s)
@@ -178,6 +183,11 @@ header.sticky{
                     color:#000;
                     border-bottom: 0;
                     }
+                .active {   
+                    color:#000;
+                    border-bottom: 0;
+                    background-color: #24C3EB;
+                    }
             }
         li:nth-child(2){
             @include transition-delay(0.2s)
@@ -268,6 +278,11 @@ header.sticky{
                 a:hover,a:active,.special:hover {   
                     color:#000;
                     border-bottom: 0;
+                    }
+                .active {   
+                    color:#000;
+                    border-bottom: 0;
+                    background-color: #24C3EB;
                     }
             }
         li:nth-child(2){

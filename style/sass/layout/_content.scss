@@ -20,7 +20,7 @@
     letter-spacing: 1px;
     line-height: 25px;
 }
-/* responsive content style max width:1824 & min width:1225 */
+/* responsive content style max width:1824 & min width:1224 */
 @media #{$large}{
     .image img{
     width:100%;
@@ -30,6 +30,7 @@
     line-height: 20px;
 }
 }
+/* responsive content style max width:1824 & min width:1465 */
 @media #{$slarge}{
     .image img{
     margin:25px auto;

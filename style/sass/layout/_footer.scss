@@ -8,3 +8,10 @@ footer{
         padding-bottom:10px;
     }
 }
+/* responsive content style max width:481*/
+@media #{$xsmall} {
+   footer .info{
+        font-size:0.7em;
+        padding-bottom:0px;
+    }
+}

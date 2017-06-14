@@ -131,7 +131,7 @@ header.sticky { -moz-box-shadow: 5px 0 5px rgba(48, 43, 45, 0.8); -o-box-shadow:
 @media (min-width: 1224px) and (max-width: 1824px) { .image img { width: 100%; margin: 75px auto; }
   .content { line-height: 20px; } }
 @media (min-width: 1465px) and (max-width: 1824px) { .image img { margin: 25px auto; } }
-/* responsive content style max width:1158 & min width:768 */
+/* responsive content style max width:1223 & min width:768 */
 @media (min-width: 768px) and (max-width: 1223px) { .headline { font-size: 2em !important; }
   .image { display: block; float: none; width: 100%; margin: 0; }
   .image img { width: 100%; margin: 0; }

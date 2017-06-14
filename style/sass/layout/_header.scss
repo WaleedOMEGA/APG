@@ -125,18 +125,19 @@ header.sticky{
         }
         }
     header nav:not(.active) ul li{
-    right:-250px;
+        right:-250px;
     }
     header nav:not(.active) .nav-btn{
-    background-color:transparent;
+        background-color:transparent;
     }
     header nav .nav-btn{
-      background: none;
-      width:40px;      border:none;
-      margin-right: 30px;
-      float: right;
-      margin-top: 15px;
-     display: block;
+        background: none;
+        width:40px;
+        border:none;
+        margin-right: 30px;
+        float: right;
+        margin-top: 15px;
+        display: block;
         background-color: #ccc;
         padding:5px 3px;
         border-radius: 3px;
@@ -221,18 +222,19 @@ header.sticky{
         }
         }
     header nav:not(.active) ul li{
-    right:-250px;
+        right:-250px;
     }
     header nav:not(.active) .nav-btn{
-    background-color:transparent;
+        background-color:transparent;
     }
     header nav .nav-btn{
-      background: none;
-      width:40px;      border:none;
-      margin-right: 30px;
-      float: right;
-      margin-top: 15px;
-     display: block;
+        background: none;
+        width:40px;
+        border:none;
+        margin-right: 30px;
+        float: right;
+        margin-top: 15px;
+        display: block;
         background-color: #ccc;
         padding:5px 3px;
         border-radius: 3px;
@@ -250,7 +252,7 @@ header.sticky{
 /* responsive navigation style max width:1223 & min width:768 */
 @media #{$medium}{
     header .logo{
-      width:33%;
+        width:33%;
     }
     header nav{
         width:50%;
@@ -317,19 +319,19 @@ header.sticky{
         }
         }
     header nav:not(.active) ul li{
-    right:-250px;
+        right:-250px;
     }
     header nav:not(.active) .nav-btn{
-    background-color:transparent;
+        background-color:transparent;
     }
     header nav .nav-btn{
-      background: none;
-      width:40px;
-      border:none;
-      margin-right: 30px;
-      float: right;
-      margin-top: 15px;
-     display: block;
+        background: none;
+        width:40px;
+        border:none;
+        margin-right: 30px;
+        float: right;
+        margin-top: 15px;
+        display: block;
         background-color: #ccc;
         padding:5px 3px;
         border-radius: 3px;

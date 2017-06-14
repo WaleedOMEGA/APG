@@ -6,7 +6,7 @@
 }
 .image img{
     width:80%;
-    margin:50px auto;
+    margin:75px auto;
 }
 .headline{
     margin-top:100px;
@@ -15,6 +15,11 @@
 @media #{$large}{
     .image img{
     width:100%;
-    margin:75px auto;
+    margin:100px auto;
+}
+    @media #{$slarge}{
+    .image img{
+    margin:50px auto;
 }
 }
+    

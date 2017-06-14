@@ -1,0 +1,24 @@
+.front{
+    margin-top: 100px;
+    height: 1px;
+}
+.headline{
+    margin-top:100px;
+}
+.content{
+    display: block;
+    float: none;
+    width: 100%;
+    margin: 0;
+    .prod-group {   
+	   width: 100%;
+       border: solid 1px #3EDCF0;
+       .item-group{
+           width:100%;
+           display:flex;
+           .item{
+             border: solid 1px #2E2729;  
+           }
+        }
+    }
+}

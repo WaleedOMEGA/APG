@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,eAAe;ACAf,cAAc;ADEd,MAAM,GACF,UAAU,EAAE,KAAK,EACjB,MAAM,EAAE,GAAG;;AAEf,SAAS,GACL,UAAU,EAAC,KAAK,EACnB,KAAK,ECLM,OAAO",
+"sources": ["../../sass/pages/mprocess.scss","../../sass/helpers/_var.scss"],
+"names": [],
+"file": "mprocess.css"
+}

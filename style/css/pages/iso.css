@@ -1,0 +1,14 @@
+/* variables */
+/*variables */
+.front { margin-top: 100px; height: 1px; }
+
+.headline { margin-top: 100px; color: #24C3EB; }
+
+.content { display: block; float: none; width: 100%; margin: 0; }
+.content .iso-group { width: 100%; }
+.content .iso-group .item-group { width: 100%; display: flex; align-items: center; justify-content: center; flex-wrap: wrap; }
+.content .iso-group .item-group .item { padding: 5px; }
+.content .iso-group .item-group .item img { border-radius: 2px; border: solid 1px #0079BC; width: 50%; margin: 0 auto; }
+.content .iso-group .item-group .item img:hover { border: solid 2px #F48030; }
+
+/*# sourceMappingURL=iso.css.map */

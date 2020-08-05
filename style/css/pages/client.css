@@ -4,10 +4,10 @@
 
 .headline { margin-top: 100px; color: #24C3EB; }
 
-.image { width: 220px; height: 200px; margin-left: 250px; }
+.image { width: 120px; height: 100px; margin-left: 300px; }
 .image img { width: 100%; margin: 0 auto; }
 
-.content { margin-top: 50px; }
+.content { margin-top: 20px; margin-bottom: 25px; }
 
 /* responsive content style max width:1824 & min width:1225 */
 @media (min-width: 1224px) and (max-width: 1824px) { .image { margin-left: 240px; } }
@@ -21,4 +21,4 @@
 @media (max-width: 481px) { .image { margin: 0 auto; }
   .content { margin-top: 20px; margin-bottom: 20px; text-align: center; } }
 
-/*# sourceMappingURL=mprocess.css.map */
+/*# sourceMappingURL=client.css.map */

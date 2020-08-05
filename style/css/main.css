@@ -23,9 +23,9 @@ body { overflow-x: hidden; }
 
 .container { width: 80%; margin: 0 auto; }
 
-.image { display: inline-block; float: left; width: 45%; margin-right: 10px; }
+.image { float: left; width: 45%; margin-right: 10px; }
 
-.content { display: inline-block; float: left; width: 50%; margin-left: 10px; }
+.content { float: left; width: 50%; margin-left: 10px; }
 
 .bold { font-weight: bold; color: #0079BC; }
 
@@ -43,7 +43,7 @@ header nav ul li a:hover { border-bottom: 3px solid #24C3EB; }
 header nav ul li .special { color: #F26E25; }
 header nav ul li .active { color: #24C3EB; border-bottom: 3px solid #24C3EB; }
 
-header.sticky { -moz-box-shadow: 5px 0 5px rgba(48, 43, 45, 0.8); -o-box-shadow: 5px 0 5px rgba(48, 43, 45, 0.8); -webkit-box-shadow: 5px 0 5px rgba(48, 43, 45, 0.8); box-shadow: 5px 0 5px rgba(48, 43, 45, 0.8); }
+.sticky { -moz-box-shadow: 5px 0 5px rgba(48, 43, 45, 0.8); -o-box-shadow: 5px 0 5px rgba(48, 43, 45, 0.8); -webkit-box-shadow: 5px 0 5px rgba(48, 43, 45, 0.8); box-shadow: 5px 0 5px rgba(48, 43, 45, 0.8); }
 
 /* responsive navigation style max width:481*/
 @media (max-width: 481px) { header .logo { width: 50%; }
@@ -153,6 +153,6 @@ footer { border-top: 5px solid #0079BC; background-color: #EAEBED; width: 100%; 
 footer .info { font-size: 1em; padding-bottom: 10px; }
 
 /* responsive content style max width:481*/
-@media (max-width: 481px) { footer .info { font-size: 0.7em; padding-bottom: 0px; } }
+@media (max-width: 481px) { footer .info { font-size: 0.7em; padding-bottom: 0; } }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,23 @@
+/* variables */
+/*variables */
+.front { margin-top: 175px; height: 1px; }
+
+.image { display: block; float: none; width: 50%; margin: 10px auto; }
+.image img { margin: 0; }
+
+.content { display: block; float: none; width: 50%; margin: 0 auto; font-size: 14px; }
+
+@media (max-width: 481px) { .front { margin-top: 175px; }
+  .headline { font-size: 1.5em !important; }
+  .image { width: 100%; }
+  .content { width: 100%; line-height: 18px; } }
+@media (min-width: 482px) and (max-width: 767px) { .front { margin-top: 175px; }
+  .headline { font-size: 1.5em !important; }
+  .image { width: 100%; }
+  .content { width: 100%; line-height: 18px; } }
+@media (min-width: 768px) and (max-width: 1223px) { .front { margin-top: 175px; }
+  .headline { font-size: 1.5em !important; }
+  .image { width: 100%; }
+  .content { width: 100%; line-height: 18px; } }
+
+/*# sourceMappingURL=faq.css.map */
